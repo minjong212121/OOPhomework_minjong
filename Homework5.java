@@ -21,11 +21,11 @@ class Computer {
 
     public void printInfo() {
         System.out.printf("The spec of the computer\n");
-        System.out.printf(" CPU: %s\n", cpu);
-        System.out.printf(" Memory: %s\n", memory);
-        System.out.printf(" HDD: %s\n", hd);
-        System.out.printf(" Color: %s\n", color);
-        System.out.printf(" Power: %s\n", power);
+        System.out.printf("  CPU: %s\n", cpu);
+        System.out.printf("  Memory: %s\n", memory);
+        System.out.printf("  HDD: %s\n", hd);
+        System.out.printf("  Color: %s\n", color);
+        System.out.printf("  Power: %s\n", power);
     }
 }
 
@@ -46,9 +46,9 @@ class Monitor {
 
     public void printInfo() {
         System.out.printf("The spec of the monitor\n");
-        System.out.printf(" Size: %s\n", monitorSize);
-        System.out.printf(" Color: %s\n", color);
-        System.out.printf(" Power: %s\n", power);
+        System.out.printf("  Size: %s\n", monitorSize);
+        System.out.printf("  Color: %s\n", color);
+        System.out.printf("  Power: %s\n", power);
     }
 }
 
